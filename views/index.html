@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+</head>
+<body>
+<div class="row container row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+
+        <button id="btn_add" type="button" class="btn btn-success">Add</button>
+    </div>
+    <div class="col-md-6">
+        <table class="table table-bordered table-md col-md-9">
+            <thead>
+            <tr>
+                <th class="col-md-2">No</th>
+                <th class="col-md-5">Name</th>
+                <th class="col-md-5">User Role</th>
+
+            </tr>
+            </thead>
+            <tbody id="tbl_body">
+
+
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+<script src="/javascripts/index.js"></script>
+
+</body>
+</html>
